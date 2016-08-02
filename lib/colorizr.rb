@@ -6,10 +6,8 @@ class String
 		@@colors_hash.keys
 	end
 	# Define the class method for the sample colors
-	self.instance_eval do
-		def sample_colors
-			@@colors_hash.each {|key,value| puts("This is \e[#{value}m#{key}\e[0m")}
-		end
+	def self.sample_colors
+		@@colors_hash.each {|key,value| puts "This is #{key.to_s.send key}"}
 	end
 	# Define the instace method for the colors
 	def self.create_colors

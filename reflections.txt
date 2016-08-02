@@ -1,0 +1,19 @@
+#### How does your gem take advantage of Ruby's metaprogramming capabilities?
+
+My gem takes advantage of Ruby's metaprogramming abilites in the following ways.
+
+1. It uses `send` to call methods on a string
+
+2. It uses `define method` to dynamically define methods
+
+
+
+#### How long did you spend on this project?
+1. I spent 3 days on the project for a total of about 20 hours
+
+### What was the most rewarding challenge you conquered?
+
+1. Understanding how to use the define method was the most difficult for me.
+
+### Where do you still have room to grow?
+1. I feel I have only just scratched the surface with Ruby Metaprogramming, I am looking for more avenues to explore the topic further.
